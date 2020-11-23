@@ -114,6 +114,26 @@
         <servlet-name>greetServlet</servlet-name>
         <url-pattern>/greet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>check1Servlet</servlet-name>
+        <servlet-class>com.lql.servlet.Check1Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>check1Servlet</servlet-name>
+        <url-pattern>/check1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>output1Servlet</servlet-name>
+        <servlet-class>com.lql.servlet.Output1Servlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>output1Servlet</servlet-name>
+        <url-pattern>/output1</url-pattern>
+    </servlet-mapping>
     
     <welcome-file-list>
         <welcome-file>login.html</welcome-file>
