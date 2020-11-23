@@ -11,7 +11,7 @@ import java.io.OutputStream;
 /**
  * Title: DownloadServlet <br>
  * ProjectName: javaWeb <br>
- * description: TODO <br>
+ * description: 下载文件 <br>
  *
  * @author: leiql <br>
  * @version: 1.0 <br>
